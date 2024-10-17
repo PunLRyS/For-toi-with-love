@@ -1,0 +1,28 @@
+#ifndef SANPHAM_H
+#define SANPHAM_H
+
+#include <string>
+#include <vector>
+
+using namespace std;
+
+class SanPham{
+    private:
+        string maSanPham;
+        string tenSanPham;
+        double giaBan;
+        int soLuong;
+        vector<SanPham> danhSachSanPham;
+
+    public:
+        SanPham();
+        SanPham(string maSanPham, string tenSanPham, double giaBan, int soLuong);
+        void themSanPham();
+        void xoaSanPham();
+        void suaSanPham();
+        void hienThiDanhSachSanPham();
+        void timKiemSanPham();
+
+};
+
+#endif // SANPHAM_H
