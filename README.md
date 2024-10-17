@@ -24,9 +24,13 @@ git push origin feature/somthing //thay feature/something thành tên nhánh đ�
 Hướng dẫn biên dịch và chạy chương trình
 
 mở terminal
+
 di chuyển đến thư mục clone project // ví dụ của tôi đường dẫn là "D:\Ricado\For-toi-with-love\src" thì
+
 cd D:\Ricado\For-toi-with-love\src
 
 g++ -Iinclude -Iquanly main.cpp src/*.cpp -o main
+
 nếu dùng terminal trên cmd thì ghi: main
+
 dùng terminal bằng powershell hoặc trên vscode thì ghi: ./main
